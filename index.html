@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez le Japon">
+    <title>Découvrez le Japon</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+   <!------------------ Entête ------------------>
+    <header>
+
+        <div class="icon">
+        
+            <div class="image">
+                
+                <a href="http://google.com" target="_blank"><img src="Ressources/013-twitter.svg" alt="twitter"></a>
+            </div>
+            <div class="image">
+                <a href="http://google.com" target="_blank"><img src="Ressources/001-facebook.svg" alt="facebook"></a>
+                
+            </div>
+            <div class="image">
+                <a href="http://google.com" target="_blank"><img src="Ressources/008-youtube.svg" alt="youtube"></a>
+                
+            </div>
+            <div class="image" id="imageinstagram">
+                <a href="http://google.com" target="_blank"><img src="Ressources/011-instagram.svg" alt="instagram"></a>
+                 
+            </div>
+            
+        </div>
+
+        <div class="logo">
+            <div class="logo-img">
+                <img src="Ressources/japan.svg" alt="">
+            </div>
+        </div>
+        <h1>Découvrez le Japon</h1>
+    
+    </header>
+
+<!------------------ Navigation ------------------>
+
+    <nav>
+        <ul class="liste-nav" id="home">
+            <li class="item-nav"><a href="#home">Accueil</a></li>
+            <li class="item-nav"><a href="#ville">Villes</a></li>
+            <li class="item-nav"><a href="#prix">Tarifs</a></li>
+            <li class="item-nav"><a href="#a propos">À propos</a></li>
+            <li class="item-nav"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="acceuil"></div>
+        <div class="titre">
+            <h2>Les plus belles villes du Japon</h2>
+        </div>
+        
+    <!------------------ Galerie ------------------>
+
+
+    <div class="galerie" id="ville" >
+        <div class="galerie-item">
+            <h3>Tokyo</h3>
+            <img src="Ressources/jezael-melgoza-layMbSJ3YOE-unsplash.jpg" alt="tokyo">  
+        </div>
+        <div class="galerie-item">
+            <h3>Kyoto</h3>
+            <img src="Ressources/juliana-barquero-WaHPhFveWLk-unsplash.jpg" alt="kyoto">
+        </div>
+        <div class="galerie-item">
+            <h3>Nagoya</h3>
+            <img src="Ressources/dovile-ramoskaite-TyN-2toOZuU-unsplash.jpg" alt="nagoya">
+        </div>
+        <div class="galerie-item">
+            <h3>Miyazaki</h3>
+            <img src="Ressources/tom-vining-Qp4TPK_V5iE-unsplash.jpg" alt="miyazaki">
+        </div>
+        <div class="galerie-item">
+            <h3>Osaka</h3>
+            <img src="Ressources/sorasak-_UIN-pFfJ7c-unsplash.jpg" alt="osaka">
+        </div>
+        <div class="galerie-item">
+            <h3>Nara</h3>
+            <img src="Ressources/timo-volz-tEOhkLuqmUI-unsplash.jpg" alt="nara">
+        </div>
+        <div class="galerie-item">
+            <h3>Hokkaido</h3>
+            <img src="Ressources/frederick-wallace-OPYhTFvopRw-unsplash.jpg" alt="hokkaido">
+        </div>
+        <div class="galerie-item">
+            <h3>Yamaguchi</h3>
+            <img src="Ressources/zhipeng-ya-6ctiGKf8p7I-unsplash.jpg" alt="yamaguchi">
+        </div>
+    </div>
+
+    </section>
+
+<!------------------ tarif ------------------>
+
+    <section>
+        <div class="img-tarif" id="prix"></div>
+
+        <div class="grille">
+
+            <div class="bloc tarif1">
+
+            <h4>Formule Journée</h4>
+            <span class="heure">(8h30-17h30)</span>
+            <hr>
+            <span>1 Personne  = 20 000 yens</span>
+            <span>2 Personnes = 25 000 yens</span>
+            <span>3 Personnes = 30 000 yens</span>
+            <span>Au-delà = 10 000 yen par personnes</span>
+            <a href="#contact">Réservez</a>
+
+            </div>
+
+        
+            <div class="bloc tarif2">
+
+            <h4>Formule Soirée</h4>
+            <span class="heure">(8h30-23h30)</span>
+            <hr>
+            <span>1 Personne  = 25 000 yens</span>
+            <span>2 Personnes = 30 000 yens</span>
+            <span>3 Personnes = 35 000 yens</span>
+            <span>Au-delà = 10 000 yen par personnes</span>
+            <a href="#contact">Réservez</a>
+        
+            </div>
+
+        </div>
+
+    </section>
+
+<!------------------------- Contact --------------------------->
+
+    <section>
+
+        <div class="contact-titre" id="contact">
+            <h3>Contactez-nous</h3>
+        </div>
+
+        <div class="container-form">
+
+        <form class="form-bloc">
+
+            <div class="form-groupe">
+                <label for="prenom">Prénom :</label>
+                <input type="text" placeholder="Entrez votre prénom" required id="prenom">
+            </div>
+
+            <div class="form-groupe">
+                <label for="nom">Nom :</label>
+                <input type="text" placeholder="Entrez votre nom" required id="nom">
+            </div>
+
+            <div class="form-groupe">
+                <label for="message">Message :</label>
+                <textarea  id="txt" placeholder="Comment pouvons-nous aider ?" required></textarea>
+            </div>
+
+            <div class="form-groupe">
+                <input type="submit" value="ENVOYER" class="button-sub">
+            </div>
+
+        </form>
+
+    </div>
+
+    </section>
+
+<!-----------------------------------Footer ----------------------------------->
+    <footer>
+        <div class="footer"> 
+            <span>&copy;2020 </span>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
